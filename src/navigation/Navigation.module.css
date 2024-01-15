@@ -1,0 +1,6 @@
+.font {
+  font-size: 2rem;
+  color: var(--color-link-light);
+  font-weight: 300;
+  text-transform: uppercase;
+}
