@@ -8,5 +8,13 @@
       "id": 1
     }
   ],
-  "users": []
+  "users": [
+    {
+      "email": "test@test.bg",
+      "userName": "Test Tester",
+      "password": "$2a$10$SUrzsIEKp/WXOsb.XsnDlOsWh/Y0QKF5P4X24TT36Deh1knv4EOhK",
+      "id": 1,
+      "repass": "123456"
+    }
+  ]
 }
