@@ -1,6 +1,11 @@
-.font {
+.navigation {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 5rem;
   font-size: 2rem;
   color: var(--color-link-light);
   font-weight: 300;
   text-transform: uppercase;
+  border-bottom: 0.1rem solid var(--dimmed);
 }

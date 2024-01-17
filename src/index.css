@@ -9,12 +9,11 @@ html {
   font-family: "Raleway", sans-serif;
   line-height: 1.5;
   font-weight: 400;
-  background-color: #242424;
-
-  /* color-scheme: light dark; */
-  /* color: rgba(255, 255, 255, 0.87); */
-  --color-main-dark: #0a0a0a;
-  --color-link-light: #f8f9fa;
+  --background: #252422;
+  --dimmed: #403d39;
+  --high-contrast: #eb5e28;
+  --font-shade: #ccc5b9;
+  --font-base: #fffcf2;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -23,9 +22,12 @@ html {
 }
 
 body {
+  background-color: var(--background);
   margin: 0;
   display: flex;
   flex-direction: column;
   min-width: 320px;
   min-height: 100vh;
+  color: var(--font-base);
+  position: relative;
 }

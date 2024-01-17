@@ -2,7 +2,7 @@ import styles from "./Navigation.module.css";
 
 function Navigation() {
   return (
-    <div className={styles.font}>
+    <div className={styles.navigation}>
       <ion-icon name="accessibility-outline"></ion-icon>
       Test test
       <p>

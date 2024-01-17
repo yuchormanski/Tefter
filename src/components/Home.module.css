@@ -1,0 +1,35 @@
+.mainHeading {
+  font-size: 3rem;
+  color: var(--high-contrast);
+  font-weight: 300;
+  text-align: center;
+  padding: 1rem 0 2rem;
+}
+
+.homeTextContent {
+  font-size: 1.8rem;
+  margin-bottom: 4rem;
+}
+
+.gamesContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  place-items: start center;
+  gap: 2rem;
+  padding: 2rem 5rem;
+}
+
+.listItem {
+  width: 97%;
+}
+
+.gameBtn {
+  background-color: var(--font-shade);
+  border-radius: 0.2rem;
+  width: 100%;
+  font-size: 1.8rem;
+  color: var(--dimmed);
+  text-align: center;
+  padding: 2rem 2%;
+  text-transform: uppercase;
+}
